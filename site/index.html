@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta character="utf-8"
 	<title>
-		Hello Coursera!
+		The Box Model
 	</title>
+	<style>
+		header li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active {
+			background-color:red;
+			color: purple;
+			
+		}
+
+		section div:nth-child(odd) {
+			background-color: grey;
+		}
+
+		section span {
+			background-color: yellow;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: gray;
+		}
+
+		#box {
+			background-color :blue;
+		}
+		#content {
+			background-color: #90EE90; //green
+		}
+		h1 {
+			margin-bottom: 30px;
+		}
+	</style>
 </head>
 <body>
 	<h1>
-		Hello Coursera! It's a great Course!
+		Test(H1)
 	</h1>
+	<header>
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="http://goo.gl/V0W16s" target="_blank">AngularJS Course</a></li>
+			<li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
+		</ul>
+	</header>
+
+	<section>
+		<div>DIV 1</div>
+		<span>SPAN 1</span>
+		<div>DIV 2</div>
+		<div>DIV 3</div>
+		<div>DIV 4</div>
+	</section>
+	<div id = "box">
+		<div id="content"> box content
+		</div>
+	</div>
 </body>
 </html>
