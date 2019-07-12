@@ -1,0 +1,13 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #BFE9FF;
+	font-family: Oxygen, "Times New Roman", times, serif;
+}
+
+/**HEADER**/
+#header-nave {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
